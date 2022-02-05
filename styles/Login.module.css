@@ -1,0 +1,59 @@
+.login_container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 153, 255);
+    height: 100vh;
+}
+
+.login_card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.login_title {
+    text-align: center;
+    font-size: 22px;
+}
+
+.login_button {
+    width: 120px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(41, 80, 139);
+    background-color: orange;
+    text-align: center;
+    font-family: "Avenir Book";
+    transition-duration: 0.25s;
+    cursor: pointer;
+    border: solid black 2px;
+}
+
+.login_button:hover {
+    background: white;
+}
+
+.login_logo {
+    background: url('https://media-exp1.licdn.com/dms/image/C560BAQFQuvKLgSMKbQ/company-logo_200_200/0/1547758904095?e=2159024400&v=beta&t=i-IDv7QC-x4BRxZXCU1pt7GP2BXj4txT6yCxD3A5dTc');
+    width: 30px;
+    height: 30px;
+}
+
+.login_error {
+    text-align: center;
+    color: red;
+    font-weight: 300;
+    font-size: 14px;
+}
